@@ -42,3 +42,34 @@ body{
 .visible{
   display: block;
 }
+
+.calculator{
+  background: #222222;
+  border: 1px solid #cccccc;
+  color: #cccccc;
+  width: 300px;
+  overflow: hidden;
+}
+.inputExpression{
+  background: #cccccc;
+  color: #222222;
+  height:40px;
+  width: 100%;
+}
+.keyholder{
+  border-top: 1px solid #cccccc;
+}
+.calculator-row{
+  width: 100%;
+  clear: both;
+}
+.calculator-row div,.calculator-row .button{
+  padding: 20px;
+  width: 60px;
+  float: left;
+  text-align: center;
+}
+.inputExpression input{
+  width: 100%;
+  padding: 14px;
+}
